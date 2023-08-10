@@ -43,4 +43,4 @@ This project involves deploying and hosting a WordPress website on the Amazon We
 - High availability: By leveraging multiple availability zones and load balancing, AWS provides high availability for the WordPress website, minimizing downtime and ensuring continuous access.
 - Security: AWS offers various security features, such as IAM for access control, ACM for SSL/TLS certificates, and VPC for network isolation, to enhance the security of the WordPress website.
 - Cost-effectiveness: AWS provides a pay-as-you-go pricing model, allowing you to optimize costs by scaling resources as needed and only paying for the actual usage.
-<br />
+<h2>Project Workflow:</h2>
