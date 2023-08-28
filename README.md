@@ -66,11 +66,70 @@ Serverless Architecture: <br/>
 <p align="center">
 <img src="https://imgur.com/hUhisQ1.png" height="80%" width="80%">
 <br />
+
+5. Now lets create a Route Table. From the VPC console, Navigate to Route Tables option and click on Create Table. After creating the table, click on the table and scroll down to Routes section. Click on Edit Routes. Then Click on Add Routes and add a route for the instances to connect to the Internet Gateway.
+<p align="center">
+<img src="https://imgur.com/PliiZSW.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/g6HbTWl.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/rkNcaew.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/h2gaPM1.png" height="80%" width="80%">
+<br />
+
+6. Now lets associate the Public Subnets with the Public Route Table. Click on the Route Table, Click on Subnet Associations and add the subnets. 
+<p align="center">
+<img src="https://imgur.com/lUOAjr7.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/1OhgdNT.png" height="80%" width="80%">
+<br />  
+
+7. Similar to the Step 4, lets create Private Subnets. We need four Private Subnets. One in each Availability Zone for EC2 instances and Database.
+<p align="center">
+<img src="https://imgur.com/Vt9rYnX.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/sPREugv.png" height="80%" width="80%">
+<br />  
+<p align="center">
+<img src="https://imgur.com/Nyw1oYg.png" height="80%" width="80%">
+<br />
+
+8. Similarly, lets create the Private Route Tables for Availability Zones US-East 1a and 1b.
+<p align="center">
+<img src="https://imgur.com/j6icWIR.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/WUavko3.png" height="80%" width="80%">
+<br />  
+<p align="center">
+<img src="https://imgur.com/FLNIbDL.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/4kEfsom.png" height="80%" width="80%">
+<br />  
+<p align="center">
+<img src="https://imgur.com/vBOHU51.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/cEhL0ft.png" height="80%" width="80%">
+<br />  
+<p align="center">
+<img src="https://imgur.com/ZGrhzbG.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/JCdYvYr.png" height="80%" width="80%">
+<br />
+
+
+
   
-  
-  
-  
-  4. Install and configure WordPress: Download and install the WordPress CMS on the EC2 instances. Configure the database connection settings to connect to the RDS instance.
+  4. Install and confgure WordPress: Download and install the WordPress CMS on the EC2 instances. Configure the database connection settings to connect to the RDS instance.
 
 5. Set up S3 bucket: Create an S3 bucket to store media files used in the WordPress website. Configure the necessary permissions and access control for the bucket.
 
