@@ -21,7 +21,7 @@ This project involves deploying and hosting a WordPress website on the Amazon We
 7. AWS Identity and Access Management (IAM): IAM is used to manage access and permissions for AWS resources. It allows you to create and manage users, groups, and roles with fine-grained access control.
 
 <h2>Project Workflow:</h2>
-1. Set up EC2 instances: Provision EC2 instances with the desired specifications, such as instance type, operating system, and storage. Install and configure the necessary software, including the web server (e.g., Apache or Nginx) and PHP.
+1. Design the architecture: Define the components and services required for the website, including VPC, Internet Gateways, NAT Gateways, EC2 Instances, RDS Database, and EFS Filesystem.
 
 2. Configure RDS: Set up an RDS instance with the desired database engine (MySQL or Aurora). Configure the database settings, such as storage, backup, and replication options.
 
