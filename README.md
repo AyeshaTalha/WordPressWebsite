@@ -42,6 +42,30 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/gj63j1f.png" height="80%" width="80%">
 <br />
 
+3. For the instances in our Subnets to have access to the internet, we need to create an Internet Gateway. On the Left side on the VPC main page, Scroll down to the Internet Gateways option. Click on Create Internet Gateway. Attach it to the VPC you just created.
+<p align="center">
+<img src="https://imgur.com/tTWyBQ0.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/njWYPKd.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/fDhl4F6.png" height="80%" width="80%">
+<br />
+
+4. Next we will create Subnets in our VPC. First we will create Public Subnets. We require two Public Subnets, One in the Availibility Zone 1a and the other in the Availability zone 1b. Make sure to enable the auto assign IP address in the IP Settings.
+<p align="center">
+<img src="https://imgur.com/aTiWajA.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/qvRZbAZ.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/6mQfagY.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/hUhisQ1.png" height="80%" width="80%">
+<br />
   
   
   
