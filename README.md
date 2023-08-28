@@ -22,20 +22,41 @@ This project involves deploying and hosting a WordPress website on the Amazon We
 
 <h2>Project Workflow:</h2>
 1. Design the architecture: Define the components and services required for the website, including VPC, Internet Gateways, NAT Gateways, EC2 Instances, RDS Database, and EFS Filesystem.
+<p align="center">
+Serverless Architecture: <br/>
+<p align="center">
+<img src="https://imgur.com/H6KgRA1.png" height="80%" width="80%">
+<br />
 
-2. Configure RDS: Set up an RDS instance with the desired database engine (MySQL or Aurora). Configure the database settings, such as storage, backup, and replication options.
+2. The first step of this architecture would be to select the region where we want to deploy this website. On the top right corner, select the appropriate region you are at. The next step is to create your VPC. On the AWS Management Console, Navigate to VPC. Click on Create VPC. For the purpose of this project will give it a CIDR Block of 10.0.0.0/16. You can choose any CIDR block you want.
+<p align="center">
+<img src="https://imgur.com/TU0sbmb.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/Ot4UizW.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/Ot4UizW.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/gj63j1f.png" height="80%" width="80%">
+<br />
 
-3. Install and configure WordPress: Download and install the WordPress CMS on the EC2 instances. Configure the database connection settings to connect to the RDS instance.
+  
+  
+  
+  
+  4. Install and configure WordPress: Download and install the WordPress CMS on the EC2 instances. Configure the database connection settings to connect to the RDS instance.
 
-4. Set up S3 bucket: Create an S3 bucket to store media files used in the WordPress website. Configure the necessary permissions and access control for the bucket.
+5. Set up S3 bucket: Create an S3 bucket to store media files used in the WordPress website. Configure the necessary permissions and access control for the bucket.
 
-5. Configure CloudFront: Set up a CloudFront distribution to serve the website's static assets, such as CSS, JavaScript, and images. Configure the CloudFront distribution to use the S3 bucket as the origin.
+6. Configure CloudFront: Set up a CloudFront distribution to serve the website's static assets, such as CSS, JavaScript, and images. Configure the CloudFront distribution to use the S3 bucket as the origin.
 
-6. Configure Route 53: Set up DNS records in Route 53 to route incoming requests to the WordPress website's EC2 instances or CloudFront distribution.
+7. Configure Route 53: Set up DNS records in Route 53 to route incoming requests to the WordPress website's EC2 instances or CloudFront distribution.
 
-7. Enable HTTPS: Use ACM to provision an SSL/TLS certificate for the website's domain. Configure the web server to enable HTTPS and redirect HTTP traffic to HTTPS.
+8. Enable HTTPS: Use ACM to provision an SSL/TLS certificate for the website's domain. Configure the web server to enable HTTPS and redirect HTTP traffic to HTTPS.
 
-8. Set up backups and monitoring: Configure regular backups for the RDS database and implement monitoring and logging using AWS CloudWatch to track and analyze website performance and health.
+9. Set up backups and monitoring: Configure regular backups for the RDS database and implement monitoring and logging using AWS CloudWatch to track and analyze website performance and health.
 
 <h2>Benefits of AWS WordPress Website:</h2>
 
