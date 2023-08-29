@@ -126,6 +126,42 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/JCdYvYr.png" height="80%" width="80%">
 <br />
 
+9. Lets create a NAT Gateway in Public Subnet 1 and Public Subnet 2 and allocate Elastic IP's. Edit the Route Tables and add the route to the NAT Gateway.
+<p align="center">
+<img src="https://imgur.com/qprHdol.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/bn7uryS.png" height="80%" width="80%">
+<br />  
+<p align="center">
+<img src="https://imgur.com/ivU2eS6.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/jZNQb4w.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/F8JtMGl.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/F2t80im.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/F2t80im.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/NWAUmja.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/EpKLGEG.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/Vfkthzp.png" height="80%" width="80%">
+<br />
+
+
+
+
+
 
 
   
