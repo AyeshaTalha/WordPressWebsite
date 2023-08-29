@@ -221,8 +221,24 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/wTx72rS.png" height="80%" width="80%">
 <br />
 
+13. The next step is to create an EFS system.
+<p align="center">
+<img src="https://imgur.com/0cJIA1W.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/DdP3Rcz.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/n0JseaN.png" height="80%" width="80%">
+<br />
 
-
+14. Now, lets create the security group for ssh.
+<p align="center">
+<img src="https://imgur.com/qCK6vx5.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/STnXQYL.png" height="80%" width="80%">
+<br />
 
 
 
