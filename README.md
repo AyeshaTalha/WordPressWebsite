@@ -221,7 +221,7 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/wTx72rS.png" height="80%" width="80%">
 <br />
 
-13. The next step is to create an EFS system.
+13. The next step is to create an EFS File system.
 <p align="center">
 <img src="https://imgur.com/0cJIA1W.png" height="80%" width="80%">
 <br />
@@ -232,7 +232,7 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/n0JseaN.png" height="80%" width="80%">
 <br />
 
-14. Now, lets create the security group for ssh.
+14. Now, lets create the security group for ssh. After creating it, edit the inbound rules for Web Server Security Group and EFS Security Group to add an SSH rule for the SSH Security Group as destination.  
 <p align="center">
 <img src="https://imgur.com/qCK6vx5.png" height="80%" width="80%">
 <br />
