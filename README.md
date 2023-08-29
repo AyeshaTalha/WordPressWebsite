@@ -158,6 +158,69 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/Vfkthzp.png" height="80%" width="80%">
 <br />
 
+10. Now, lets add the Security Groups for EC2 instances, Application Load Balancer, RDS Database and EFS File System. From the VPC main console, Scroll down on the lefthand side to the Security Groups option. Click on Create Security Group.
+<p align="center">
+<img src="https://imgur.com/zJtGuNl.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/M3qyDXZ.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/02eyGtH.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/dchucwR.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/JMneJsd.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/RXRCaN1.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/RXRCaN1.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/rKqCdyT.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/FppW81h.png" height="80%" width="80%">
+<br />
+
+11. Navigate back to RDS Console. On the lefthand side select the Subnet Groups option. Click on Add Subnet Group and select the subnets. 
+<p align="center">
+<img src="https://imgur.com/IinnFAH.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/AEGHjKZ.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/PmXIlPX.png" height="80%" width="80%">
+<br />
+
+12. On the RDS Console, Click on Databases. Click on Create Database. Enter the following details and click on Create Database. Remember the Credentials you enter. We are going to be use these to login later.
+<p align="center">
+<img src="https://imgur.com/QuQ7dql.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/PmXIlPX.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/VwPeMRs.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/e4mBu2d.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/jZDZsbn.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/yg7elyB.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/wTx72rS.png" height="80%" width="80%">
+<br />
+
 
 
 
