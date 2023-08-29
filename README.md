@@ -232,15 +232,36 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/n0JseaN.png" height="80%" width="80%">
 <br />
 
-14. Now, lets create the security group for ssh. After creating it, edit the inbound rules for Web Server Security Group and EFS Security Group to add an SSH rule for the SSH Security Group as destination.  
+14. Now, lets create the security group for SSH. After creating it, edit the inbound rules for Web Server Security Group and EFS Security Group to add an SSH rule for the SSH Security Group as destination.  
 <p align="center">
 <img src="https://imgur.com/qCK6vx5.png" height="80%" width="80%">
 <br />
 <p align="center">
 <img src="https://imgur.com/STnXQYL.png" height="80%" width="80%">
 <br />
+<p align="center">
+<img src="https://imgur.com/RMICiOn.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/2lmyB7K.png" height="80%" width="80%">
+<br />
 
-
+15. The next step is to launch a setup server with appropriate security groups. On the AWS Console, Navigate to EC2. On the EC2 Dashboard, Click on Running instances and the Click on Create Instance. Enter the details and click on Create Instance. After creating the Instance, copy the Public IPV4 address of the server. We will use it to SSH into the server using PUTTY.
+<p align="center">
+<img src="https://imgur.com/DO94Sfl.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/kjlZciJ.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/FTFBHkS.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/4EfWfhv.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/qxZDHT7.png" height="80%" width="80%">
+<br />
 
 
   
