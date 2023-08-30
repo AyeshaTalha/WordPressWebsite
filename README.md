@@ -269,7 +269,7 @@ Serverless Architecture: <br/>
 <br />
 
 
-17. The next step is to install WordPress and move the files to EFS. The code for this is given above in the code.txt file.
+17. The next step is to install WordPress and move the files to EFS. The code for this is given above in the code.txt file. When you edit config file, make sure you edit the database name, database user and password.
 <p align="center">
 <img src="https://imgur.com/LWOmRQR.png" height="80%" width="80%">
 <br />
@@ -284,6 +284,9 @@ Serverless Architecture: <br/>
 <br />
 <p align="center">
 <img src="https://imgur.com/ABJEpm6.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/GUKGmtC.png" height="80%" width="80%">
 <br />
 
 
