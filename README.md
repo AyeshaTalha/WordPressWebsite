@@ -263,21 +263,32 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/qxZDHT7.png" height="80%" width="80%">
 <br />
 
-16. next, we have to SSH into the Server. For this we will use PUTTY and SSH into the Server through the IP address we copied.
+16. Next, we have to SSH into the Server. For this we will use PUTTY and SSH into the Server through the IP address we copied.
 <p align="center">
-<img src=".png" height="80%" width="80%">
-<br />
-<p align="center">
-<img src="https://imgur.com/FTFBHkS.png" height="80%" width="80%">
-<br />
-<p align="center">
-<img src="https://imgur.com/4EfWfhv.png" height="80%" width="80%">
-<br />
-<p align="center">
-<img src="https://imgur.com/qxZDHT7.png" height="80%" width="80%">
+<img src="https://imgur.com/3c2OG1o.png" height="80%" width="80%">
 <br />
 
 
+17. The next step is to install WordPress and move the files to EFS. The code for this is given above in the code.txt file.
+<p align="center">
+<img src="https://imgur.com/LWOmRQR.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/AiWpTk8.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/Jvtj8p9.png" height="80%" width="80%">
+<br />
+ <p align="center">
+<img src="https://imgur.com/aloFdng.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/ABJEpm6.png" height="80%" width="80%">
+<br />
+
+
+  
+  
   
   4. Install and confgure WordPress: Download and install the WordPress CMS on the EC2 instances. Configure the database connection settings to connect to the RDS instance.
 
