@@ -4,23 +4,19 @@
 This project involves deploying and hosting a WordPress website on the Amazon Web Services (AWS) platform. WordPress is a popular content management system (CMS) used for creating and managing websites. By leveraging AWS services, the project aims to provide a scalable, secure, and highly available infrastructure for the WordPress website<br />
 
 
-<h2> Key Components and Technologies:</h2>
+<h2> Key Components and Technologies </h2>
 
 1. Amazon EC2: Amazon Elastic Compute Cloud (EC2) is used to provision virtual servers, known as EC2 instances, to host the WordPress application. EC2 instances provide the necessary compute resources to run the website.
 
 2. Amazon RDS: Amazon Relational Database Service (RDS) is used to set up and manage a MySQL or Aurora database for storing the website's content, settings, and user data. RDS provides a scalable and managed database solution.
 
-3. Amazon S3: Amazon Simple Storage Service (S3) is used to store media files, such as images and videos, used in the WordPress website. S3 provides scalable and durable object storage.
+3. Amazon VPC: With Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in a logically isolated virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
 
-4. Amazon CloudFront: CloudFront is a content delivery network (CDN) service provided by AWS. It is used to distribute the website's static assets, such as CSS, JavaScript, and images, globally, reducing latency and improving performance.
+4. Subnets: A subnet is a range of IP addresses in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets.
 
-5. Amazon Route 53: Route 53 is a scalable and highly available domain name system (DNS) service provided by AWS. It is used to route incoming requests to the WordPress website's EC2 instances or CloudFront distribution.
+5. Application Load Balancer: Elastic Load Balancing automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. It monitors the health of its registered targets, and routes traffic only to the healthy targets. Elastic Load Balancing scales your load balancer as your incoming traffic changes over time. It can automatically scale to the vast majority of workloads. 
 
-6. Amazon Certificate Manager (ACM): ACM is used to provision and manage SSL/TLS certificates for securing the website with HTTPS. ACM provides free SSL certificates that can be easily integrated with other AWS services.
-
-7. AWS Identity and Access Management (IAM): IAM is used to manage access and permissions for AWS resources. It allows you to create and manage users, groups, and roles with fine-grained access control.
-
-<h2>Project Workflow:</h2>
+<h2>Project Workflow </h2>
 1. Design the architecture: Define the components and services required for the website, including VPC, Internet Gateways, NAT Gateways, EC2 Instances, RDS Database, and EFS Filesystem.
 <p align="center">
 Serverless Architecture: <br/>
@@ -295,7 +291,7 @@ Serverless Architecture: <br/>
 <br />
  
   
-<h2>Benefits of AWS WordPress Website:</h2>
+<h2>Benefits of AWS WordPress Website </h2>
 
 - Scalability: AWS allows you to scale the infrastructure resources, such as EC2 instances and RDS databases, based on website traffic and demand, ensuring optimal performance.
 - High availability: By leveraging multiple availability zones and load balancing, AWS provides high availability for the WordPress website, minimizing downtime and ensuring continuous access.
