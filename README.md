@@ -289,22 +289,12 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/GUKGmtC.png" height="80%" width="80%">
 <br />
 
-
+17. Create an Application Load Balancer in the VPC we created. Use Private Subnet 1. The user data for the ALB is given above in the userdata.txt file. Copy and paste it in the user data section. Make sure you change the NFS mount. Copy the DNS name and paste it in the Web Browser. You will get the WordPress website Hello World!
+<p align="center">
+<img src="https://imgur.com/E3HHKmx.png" height="80%" width="80%">
+<br />
+ 
   
-  
-  
-  4. Install and confgure WordPress: Download and install the WordPress CMS on the EC2 instances. Configure the database connection settings to connect to the RDS instance.
-
-5. Set up S3 bucket: Create an S3 bucket to store media files used in the WordPress website. Configure the necessary permissions and access control for the bucket.
-
-6. Configure CloudFront: Set up a CloudFront distribution to serve the website's static assets, such as CSS, JavaScript, and images. Configure the CloudFront distribution to use the S3 bucket as the origin.
-
-7. Configure Route 53: Set up DNS records in Route 53 to route incoming requests to the WordPress website's EC2 instances or CloudFront distribution.
-
-8. Enable HTTPS: Use ACM to provision an SSL/TLS certificate for the website's domain. Configure the web server to enable HTTPS and redirect HTTP traffic to HTTPS.
-
-9. Set up backups and monitoring: Configure regular backups for the RDS database and implement monitoring and logging using AWS CloudWatch to track and analyze website performance and health.
-
 <h2>Benefits of AWS WordPress Website:</h2>
 
 - Scalability: AWS allows you to scale the infrastructure resources, such as EC2 instances and RDS databases, based on website traffic and demand, ensuring optimal performance.
