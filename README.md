@@ -263,6 +263,20 @@ Serverless Architecture: <br/>
 <img src="https://imgur.com/qxZDHT7.png" height="80%" width="80%">
 <br />
 
+16. next, we have to SSH into the Server. For this we will use PUTTY and SSH into the Server through the IP address we copied.
+<p align="center">
+<img src=".png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/FTFBHkS.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/4EfWfhv.png" height="80%" width="80%">
+<br />
+<p align="center">
+<img src="https://imgur.com/qxZDHT7.png" height="80%" width="80%">
+<br />
+
 
   
   4. Install and confgure WordPress: Download and install the WordPress CMS on the EC2 instances. Configure the database connection settings to connect to the RDS instance.
