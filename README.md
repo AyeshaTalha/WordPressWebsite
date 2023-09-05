@@ -19,7 +19,7 @@ This project involves deploying and hosting a WordPress website on the Amazon We
 <h2>Project Workflow </h2>
 1. Design the architecture: Define the components and services required for the website, including VPC, Internet Gateways, NAT Gateways, EC2 Instances, RDS Database, and EFS Filesystem.
 <p align="center">
-Serverless Architecture: <br/>
+Architecture: <br/>
 <p align="center">
 <img src="https://imgur.com/H6KgRA1.png" height="80%" width="80%">
 <br />
